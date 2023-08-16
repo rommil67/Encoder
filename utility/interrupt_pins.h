@@ -83,7 +83,7 @@
   #define CORE_INT4_PIN		7
 
 // Sanguino (untested) and ATmega1284P
-#elif defined(__AVR_ATmega644P__) || defined(__AVR_ATmega644__) || defined(__AVR_ATmega1284P__)
+#elif defined(__AVR_ATmega644P__) || defined(__AVR_ATmega644__) || defined(__AVR_ATmega1284P__) || defined(__AVR_ATmega1284__)
   #define CORE_NUM_INTERRUPT	3
   #define CORE_INT0_PIN		10
   #define CORE_INT1_PIN		11
